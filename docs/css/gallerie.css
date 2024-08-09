@@ -1,0 +1,92 @@
+﻿.title {
+    height: 310px;
+    background-image: url(../images/Back-02.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.main {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.title p {
+    margin-top: 15px;
+}
+
+.item-list img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-list {
+    width: 930px;
+    max-width: 100%;
+/*max-width: 90%;*/
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 240px);
+    justify-content: center;    
+    column-gap: 85px;
+    row-gap: 70px;
+}
+
+    .item-list dl {
+        font-family: "Yuji Mai", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .item-list dt {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .item-list li {
+        position: relative;
+    }
+
+    .item-list .item-label {
+        position: absolute;
+        top: 0;
+        left: calc(100% + 20px);
+        font-size: 15px;
+        white-space: nowrap;
+        transform-origin: top left;
+        transform: rotate(90deg);
+    }
+
+@media (max-width: 800px) {
+
+    .title {
+        padding-top: 80px;
+    }
+
+        .title h1 {
+            font-size: 40px;
+            line-height: 48px;
+        }
+
+        .title p {
+            font-size: 25px;
+        }
+
+    .item-list {
+        margin-top: 45px;
+        row-gap: 40px;
+    }
+}

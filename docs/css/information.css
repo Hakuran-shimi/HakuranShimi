@@ -1,0 +1,67 @@
+﻿.title {
+    height: 310px;
+    background-image: url(../images/Back-02.png);
+    background-repeat: no-repeat;
+    background-position: center center;  
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 10px #4b2c14;
+
+}
+
+    .main{
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 35px;
+    }
+
+    .title p {
+        margin-top: 15px;
+    }
+
+.movie {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .movie h2 {
+        margin-bottom: 20px;
+    }
+
+    .movie iframe {
+        height: 300px;
+        width: 500px;
+    }
+
+    @media (max-width: 800px) {
+
+        .title {
+            padding-top: 80px;
+        }
+
+        .title h1 {
+            font-size: 40px;
+            line-height: 48px;
+        }
+
+        .title p {
+            font-size: 25px;
+        }
+
+        .movie h2 {
+            font-size: 40px;
+        }
+
+        .movie iframe {
+            height: 240px;
+            width: 400px;
+        }
+    }

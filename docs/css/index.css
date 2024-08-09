@@ -1,0 +1,199 @@
+﻿.first-view {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/Back-02.png);
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0 ,0 ,0 ,0.5);
+}
+
+.first-view-text {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 80px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c14;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
+    
+
+.lead {
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+    .lead p {
+        line-height: 2;
+        text-align: center;
+        color: black;
+        font-family: "Yuji Mai", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4)
+    }
+
+.link-button-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link-button {
+    background-image: url(../images/Button.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    line-height: 220px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+    .link-button:hover {
+        background-image: url(../images/Button02.jpg);
+        color: white;
+    }
+
+.gallerie {
+    background-color: #f8f8f8;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #e7e7eb;
+    margin-bottom: 30px;
+}
+
+.gallerie h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.gallerie h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prof-text {
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-top: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    width: 100%;
+    display: block;
+    padding-right: inherit;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.intro-text h3 {
+    padding-bottom: 25px;
+    font-size:30px;
+}
+.intro-text p {
+    line-height: 25px;
+}
+
+.prof-text img {
+    padding-bottom: 45px;
+    height: 400px;
+    order: 3;
+}
+
+.bg_pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.Paper_v2 {
+    background-image: repeating-linear-gradient(to bottom, transparent 25px, rgba(0, 0, 0, 0.08) 26px, rgba(0, 0, 0, 0.08) 26px, transparent 27px, transparent 51px, rgba(0, 0, 0, 0.08) 52px, rgba(0, 0, 0, 0.08) 52px, transparent 53px, transparent 77px, rgba(0, 0, 0, 0.08) 78px, rgba(0, 0, 0, 0.04) 78px, transparent 79px, transparent 103px, rgba(0, 0, 0, 0.04) 104px, rgba(0, 0, 0, 0.04) 104px, transparent 105px, transparent 129px, rgba(0, 0, 0, 0.04) 130px, rgba(0, 0, 0, 0.04) 130px), repeating-linear-gradient(to right, transparent 25px, rgba(0, 0, 0, 0.04) 26px, rgba(0, 0, 0, 0.04) 26px, transparent 27px, transparent 51px, rgba(0, 0, 0, 0.04) 52px, rgba(0, 0, 0, 0.04) 52px, transparent 53px, transparent 77px, rgba(0, 0, 0, 0.04) 78px, rgba(0, 0, 0, 0.04) 78px, transparent 79px, transparent 103px, rgba(0, 0, 0, 0.04) 104px, rgba(0, 0, 0, 0.04) 104px, transparent 105px, transparent 129px, rgba(0, 0, 0, 0.04) 130px, rgba(0, 0, 0, 0.04) 130px);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 20px 1000px;
+}
+
+
+
+@media (max-width: 800px) {
+    .first-view {
+        height: 100vh;
+        align-items: flex-start;
+        background-image: url(../images/Back-01.png);
+        background-size: calc(100vh - 50px);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .first-view-text {
+        padding-top: 300px;
+        
+    }
+
+        .first-view-text h1 {
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        .first-view-text p {
+            font-size: 19px;
+            margin-top: 15px;
+        }
+
+    .lead {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+        .lead p {
+            text-align: center;
+        }
+
+    .prof-text {
+        display: block;
+        text-align: center;
+    }
+
+  
+}
