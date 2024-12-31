@@ -1,0 +1,38 @@
+ul.image-list img
+{
+    height: 300px;
+}
+
+.main-image h2::before
+{
+    display: none;
+}
+
+.main-view h2
+{
+    margin: 35px 0;
+}
+
+body
+{
+    position: relative;
+}
+
+.over-img
+{
+    position: fixed;
+    top: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.inner-img
+{
+    max-width: 80%;
+    height: 60%;
+}
